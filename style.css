@@ -1,0 +1,116 @@
+/* Gaya Asas */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+    background-color: #fcf8f5;
+    scroll-behavior: smooth;
+}
+
+/* Seksyen Hero */
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://unsplash.com') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4rem;
+    margin: 10px 0;
+}
+
+.sub-title { font-size: 1.5rem; letter-spacing: 3px; text-transform: uppercase; }
+.date { font-size: 1.2rem; margin-bottom: 20px; }
+
+/* Butang universal */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #d4af37; /* Warna Emas */
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn:hover { background-color: #aa8c2c; }
+
+/* Pemasa Countdown */
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    background: rgba(0,0,0,0.5);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+/* Butiran & Peta */
+.details, .rsvp-section {
+    padding: 60px 20px;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+}
+
+.maps-buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn-map {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+.Waze { background-color: #33ccff; }
+.Google { background-color: #4285f4; }
+
+/* Borang RSVP */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+form input, form select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.status-msg {
+    margin-top: 15px;
+    font-weight: 600;
+    color: green;
+}
+
+.music-control-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: rgba(212, 175, 55, 0.9);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
